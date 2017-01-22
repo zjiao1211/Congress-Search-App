@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/committee_cell"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:contextClickable="true"
+    android:background="#F0F0F0"
+    android:layout_marginRight="10dp">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <TextView
+            android:clickable="false"
+            android:focusable="false"
+            android:id="@+id/committee_Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_weight="10"
+            />
+        <Button
+            android:gravity="end"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/arrow"
+            android:id="@+id/arrow3"
+            android:layout_weight="1"
+            android:layout_width="10dp"
+            android:layout_height="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:clickable="false"
+        android:focusable="false"
+        android:id="@+id/committee_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"/>
+    <TextView
+        android:clickable="false"
+        android:focusable="false"
+        android:id="@+id/committee_Chamber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="15dp"/>
+</LinearLayout>

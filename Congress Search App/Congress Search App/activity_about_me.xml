@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_me"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.congresssearch.AboutMe">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:background="@drawable/jiaozhe"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="Zhe Jiao"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorFont"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="6102785617"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorFont"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+</LinearLayout>

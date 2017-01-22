@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/legislator_cell"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="horizontal"
+    android:contextClickable="true"
+    android:background="#F0F0F0"
+    >
+
+    <ImageView
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_weight="1"
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:layout_weight="1000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:clickable="false"
+            android:focusable="false"
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="3dp" />
+        <TextView
+            android:clickable="false"
+            android:focusable="false"
+            android:id="@+id/attribute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_margin="20dp"
+        android:background="@drawable/arrow"
+        android:id="@+id/arrow"
+        android:layout_weight="1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:textStyle="bold" />
+</LinearLayout>

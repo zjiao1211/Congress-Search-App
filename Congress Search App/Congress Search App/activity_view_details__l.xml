@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_details__l"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:background = "#FAFAFA"
+    android:orientation="vertical"
+    tools:context="com.example.congresssearch.ViewDetails_L">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="right">
+    <Button
+        android:id="@+id/favorite"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@null"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:contentDescription="@string/favorites"
+        />
+    <Button
+        android:id="@+id/facebook"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/facebook"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        />
+    <Button
+        android:id="@+id/twitter"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/twitter"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        />
+    <Button
+        android:id="@+id/website"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/website"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        >
+        <ImageView
+            android:id="@+id/partyImage"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            />
+        <TextView
+            android:id="@+id/party"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+    <TableLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:text="Name:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/colorFont"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+
+            <TextView
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:id="@+id/L_Name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="0dp"
+                android:gravity="end" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:text="Email:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/colorFont"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+
+            <TextView
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:id="@+id/L_Email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="0dp"
+                android:gravity="end" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:text="Chamber:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/colorFont"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+
+            <TextView
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:id="@+id/L_Chamber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="0dp"
+                android:gravity="end" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:text="Contact:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/colorFont"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+
+            <TextView
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:id="@+id/L_Contact"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="0dp"
+                android:gravity="end" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:text="Start Term:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/colorFont"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+
+            <TextView
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:id="@+id/L_Start"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="0dp"
+                android:gravity="end" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:text="End Term:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/colorFont"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+
+            <TextView
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:id="@+id/L_End"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="0dp"
+                android:gravity="end" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:text="Term:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/colorFont"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ProgressBar
+                android:id="@+id/L_Term"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:max="100"
+                />
+            <TextView
+                android:id="@+id/progress_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:background="@android:color/transparent"
+                />
+
+            </RelativeLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:text="Office:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/colorFont"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+
+            <TextView
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:id="@+id/L_Office"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="0dp"
+                android:gravity="end" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:text="State:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/colorFont"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+
+            <TextView
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:id="@+id/L_State"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="0dp"
+                android:gravity="end" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:text="Fax:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/colorFont"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+
+            <TextView
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:id="@+id/L_Fax"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="0dp"
+                android:gravity="end" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="70dp">
+            <TextView
+                android:text="Birthday:"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/colorFont"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+
+            <TextView
+                android:textSize="15dp"
+                android:layout_weight="1"
+                android:id="@+id/L_Birthday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="0dp"
+                android:gravity="end" />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+</LinearLayout>
+</ScrollView>
