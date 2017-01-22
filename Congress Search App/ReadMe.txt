@@ -53,3 +53,10 @@ Code I used from the website(blogs and Stack Overflow):
 4.Display text in center of progress bar:
   From: Stack Overflow
   Url: http://stackoverflow.com/questions/18410984/android-displaying-text-in-center-of-progress-bar
+  
+  
+  
+  
+  
+  
+  
