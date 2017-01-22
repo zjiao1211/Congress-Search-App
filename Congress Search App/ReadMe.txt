@@ -56,7 +56,3 @@ Code I used from the website(blogs and Stack Overflow):
   
   
   
-  
-  
-  
-  
